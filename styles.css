@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat,sans-serif;
+}
+
+.container {
+    width: 90%;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 45px;
+}
+
+.seccion {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto 0px;
+}
+
+/* MENÚ */
+.header-bg {
+    background-color: rgb(53, 52, 52);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 20px 0px;
+}
+
+/* BANNER */
+.site-banner-bg{
+    background-color: #242629;
+    position: relative;
+    width: 100%;
+}
+.site-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 0px 0px;
+} 
+.titulo-banner{
+    font-family:serif;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.banner-img{ 
+    filter: brightness(50%);
+    max-height: 360px;
+    width: auto;
+}   
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.link {
+    font-size: 20px;
+
+}
+
+.link:hover {
+    cursor: pointer;
+    color: aliceblue;
+}
+
+
+.inicio, .edificio, .espacios, .biografias {
+    margin-top: 70px;
+}
+
+/* DECORACION superior */
+.decoracion {
+
+    width: 50%;
+    height: 2px;
+    background-color: rgb(228, 182, 98);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(228, 182, 98);
+}
+
+
+.imagen-edificio {
+    width: 800px;
+    margin-top: 30px;
+}
+
+
+.imagenes-ubicacion {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    grid-template-rows: 500px;
+    align-items: center;
+}
+
+/* DISEÑO DEL LINK */
+a{text-decoration: none;}
+a{ color: rgb(255, 255, 255); }
+a:hover{ color:  rgb(228, 182, 98);} 
+a:active{ color: rgb(255, 255, 255); } 
